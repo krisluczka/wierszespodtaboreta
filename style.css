@@ -43,7 +43,6 @@ header, footer {
 }
 
 article {
-    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,6 +59,7 @@ article {
 }
 
 .description {
+    margin-top: 50px;
     width: 70vw;
 }
 
@@ -75,9 +75,33 @@ nav {
 .button {
     padding: 1vw;
     background-color: #9f9fff;
-    width: 100%;
 }
 
 .button:hover {
     background-color: #8f8fff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.poem {
+    margin-top: 100px;
+    padding: 25px;
+    background-color: #9f9fff;
+}
+
+.poem > h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    margin-top: 10px;
+    width: 35vw;
+}
+
+#lost-poems {
+    visibility: none;
 }
