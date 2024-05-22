@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-    background-color: #afafff;
+    background-color: #afffb4;
 }
 
 header {
@@ -78,11 +78,11 @@ nav {
 
 .button {
     padding: 1vw;
-    background-color: #9f9fff;
+    background-color: #a4ff9f;
 }
 
 .button:hover {
-    background-color: #8f8fff;
+    background-color: #9cff8f;
 }
 
 a {
@@ -90,10 +90,10 @@ a {
     color: black;
 }
 
-.poem {
+.poem, .novel {
     margin-top: 100px;
     padding: 25px;
-    background-color: #9f9fff;
+    background-color: #a4ff9f;
 }
 
 .poem > h2 {
@@ -104,6 +104,10 @@ p {
     margin: 0;
     margin-top: 10px;
     width: 35vw;
+}
+
+.novel > p {
+    width: 70vw;
 }
 
 #lost-poems {
